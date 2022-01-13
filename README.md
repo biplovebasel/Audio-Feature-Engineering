@@ -12,3 +12,5 @@ A variety of features can be extracted from audio signals. Based of the domain s
 Time domain features includes quantities like pitch,zero cross-over,envelop,etc.These features are robust and best suited for ML based approaches.
 ##### Frequency Domain Features:
 Frequency domain features are obatained by tranforming the time domain signal to frequency domain.These features are not practically understood but have real significance as they carry valuable information about the signal.DFT Spectrum is an example of frequency domain feature.
+##### Time-Frequency Domain Features:
+These features use both time domain and freqency domain features thus giving informantion in 3 dimensions.A very popular examples is Spectrogram.It has 3 dimensions-Time Index,Frequency and intensity represented by x-axis,y-axis and colour respectively.
